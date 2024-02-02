@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AevoFit",
-    "slug": "AevoFit",
+    "slug": "aevofit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,6 +34,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "280321d3-a76b-4274-b402-ef4aed97ba7a"
+      }
+    },
+    "owner": "austinhendricks"
   }
 }
